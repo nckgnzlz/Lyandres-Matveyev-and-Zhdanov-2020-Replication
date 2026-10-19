@@ -2,3 +2,8 @@ __pycache__/
 *.pyc
 .DS_Store
 .ipynb_checkpoints/
+
+# Data: synthetic data is regenerated; real Bloomberg pulls are licensed, never commit
+data/
+# Generated results (run_test.py, quick_test.py)
+outputs/
